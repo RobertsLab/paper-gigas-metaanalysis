@@ -6,7 +6,6 @@ SRA.list <- c("SRR1693528", "SRR1693531", "SRR1693532", "SRR1693534", "SRR169353
 
 setwd("/Users/yaamini/Documents/paper-gigas-metaanalysis/data/methylation-SRA-data") #Set my working directory to a folder within my Github repository
 
-
 for(i in 1:length(SRA.list)) #Create a for loop so each SRA run specified in "SRA.list" is downloaded as a .fastq file and zipped. 
 {
   
